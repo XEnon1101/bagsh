@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: #8b00b6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: #000;
+}
+
+.q1 p {
+    font-size: 4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+.bagsh {
+    width: 100%;
+    background-color: beige;
+    padding: 2rem;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.card {
+    width: 250px;
+    height: 350px;
+    background: white;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-image {
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    height: 140px;
+    border-radius: 8px 8px 0 0;
+}
+
+.card-content {
+    padding-top: 10px;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 8px;
+    line-height: 1.5;
+}
