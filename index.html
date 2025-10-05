@@ -18,16 +18,22 @@
         <h1 class="text-2xl font-bold ml-2">Steam</h1>
       </div>
 
-      <div class="flex items-center">
-        <input type="text" placeholder="Search" class="rounded bg-slate-800 text-sm px-3 py-1 text-white">
+      <div class="flex items-center ">
+        <div class="relative w-[220px]">
+          <input type="text" class="w-full h-9 pl-10 pr-3 rounded-full bg-slate-800 text-sm text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#66c0f4] transition" placeholder="Search">
+            <svg class="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400 pointer-events-none" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <circle cx="11" cy="11" r="8" stroke="currentColor"/>
+              <line x1="21" y1="21" x2="16.65" y2="16.65" stroke="currentColor"/>
+            </svg>
+          </div>
       </div>
 
     </div>
 
   </header>
     <div class="max-w-7xl mx-auto p-6">
-      <h2 class="text-xl font-bold mb-4">Featured & Recommended</h2>
-    <div class="w-full bg-[#171a21] rounded-lg shadow-lg flex flex-col md:flex-row mb-12">
+        <h2 class="text-xl font-bold mb-4">Featured & Recommended</h2>
+      <div class="w-full bg-[#171a21] rounded-lg shadow-lg flex flex-col md:flex-row mb-12">
 
         <div class="md:w-2/3 h-64 md:h-[400px]">
           <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3341960/ss_3a9475d4d57c829ab923a4bf8f8d39668834327d.1920x1080.jpg" class="w-full h-full object-cover" alt="Featured"/>
@@ -48,7 +54,7 @@
 
           <div class="p-4 border-slate-700 flex items-center justify-between justify-center">
             <p class="text-[#A1CD44] font-semibold">$69.99</p>
-            <a href="">
+            <a href="./msfs.html">
               <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
             </a>
           </div>
@@ -67,7 +73,9 @@
             <p class="text-gray-400 text-sm mb-2"> Rockstar Games</p>
             <div class="flex justify-between items-center">
               <p class="text-[#A1CD44] font-bold">$99.99</p>
-              <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
+              <a href="./gta6.html">
+                <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
+              </a>
             </div>
           </div>
         </div>
@@ -79,19 +87,23 @@
             <p class="text-gray-400 text-sm mb-2"> Game Science</p>
             <div class="flex justify-between items-center">
               <p class="text-[#A1CD44] font-bold">$59.99</p>
-              <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
+              <a href="./black.html">
+                <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
+              </a>
             </div>
           </div>
         </div>
 
         <div class="bg-[#171a21] shadow-md hover:shadow-xl">
-          <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/f94fe83233d6312f28b1427da8bc8916721f113f/capsule_616x353.jpg?t=1753863787" class="w-full h-48 object-cover" alt="Elden Ring"/>
+          <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/f94fe83233d6312f28b1427da8bc8916721f113f/capsule_616x353.jpg?t=1753863787" class="w-full h-48 object-cover" alt="re req"/>
           <div class="p-4">
             <h3 class="font-bold text-lg">Resident Evil Requiem</h3>
             <p class="text-gray-400 text-sm mb-2"> Capcom</p>
             <div class="flex justify-between items-center">
               <p class="text-[#A1CD44] font-bold">$49.99</p>
-              <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
+                <a href="./requiem.html">
+                  <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
+                </a>
             </div>
           </div>
         </div>
@@ -103,31 +115,37 @@
             <p class="text-gray-400 text-sm mb-2"> CD Projekt Red</p>
             <div class="flex justify-between items-center">
               <p class="text-[#A1CD44] font-bold">$59.99</p>
-              <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
+              <a href="./cyberpunk.html">
+                <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
+              </a>
             </div>
           </div>
         </div>
 
         <div class="bg-[#171a21] shadow-md hover:shadow-xl">
-          <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1181550/1db1597bef80bc9b1d67378d29b2475aed1f100c/capsule_616x353.jpg?t=1757590195" class="w-full h-48 object-cover" alt="RDR2"/>
+          <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1181550/1db1597bef80bc9b1d67378d29b2475aed1f100c/capsule_616x353.jpg?t=1757590195" class="w-full h-48 object-cover" alt="carhun"/>
           <div class="p-4">
             <h3 class="font-bold text-lg">Carnival Hunt</h3>
             <p class="text-gray-400 text-sm mb-2"> Beer Night Studio</p>
             <div class="flex justify-between items-center">
               <p class="text-[#A1CD44] font-bold">$9.99</p>
-              <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
+              <a href="./carnival.html">
+                <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
+              </a>
             </div>
           </div>
         </div>
 
         <div class="bg-[#171a21] shadow-md hover:shadow-xl">
-          <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg?t=1746471508" class="w-full h-48 object-cover" alt="Witcher 3"/>
+          <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1551360/capsule_616x353.jpg?t=1746471508" class="w-full h-48 object-cover" alt="fh5"/>
           <div class="p-4">
             <h3 class="font-bold text-lg">Forza Horizon 5</h3>
             <p class="text-gray-400 text-sm mb-2"> Playground Games</p>
             <div class="flex justify-between items-center">
               <p class="text-[#A1CD44] font-bold">$29.99</p>
-              <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
+              <a href="./forza.html">
+                <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
+              </a>
             </div>
           </div>
         </div>
@@ -139,43 +157,51 @@
             <p class="text-gray-400 text-sm mb-2"> Sledgehammer Games</p>
             <div class="flex justify-between items-center">
               <p class="text-[#A1CD44] font-bold">$69.99</p>
-              <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
+              <a href="./mw3.html">
+                <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
+              </a>
             </div>
           </div>
         </div>
 
         <div class="bg-[#171a21] shadow-md hover:shadow-xl">
-          <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1747389753" class="w-full h-48 object-cover" alt="Hogwarts"/>
+          <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1747389753" class="w-full h-48 object-cover" alt="rust"/>
           <div class="p-4">
             <h3 class="font-bold text-lg">Rust</h3>
             <p class="text-gray-400 text-sm mb-2"> Facepunch Studios</p>
             <div class="flex justify-between items-center">
               <p class="text-[#A1CD44] font-bold">$49.99</p>
-              <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
+              <a href="./rust.html">
+                <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
+              </a>
             </div>
           </div>
         </div>
 
         <div class="bg-[#171a21] shadow-md hover:shadow-xl">
-          <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2947440/fff09a07dbcb20b4fbfcc1105dcef9fe9d06e1b3/capsule_616x353.jpg?t=1758772827" class="w-full h-48 object-cover" alt="AC Mirage"/>
+          <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2947440/fff09a07dbcb20b4fbfcc1105dcef9fe9d06e1b3/capsule_616x353.jpg?t=1758772827" class="w-full h-48 object-cover" alt="shf"/>
           <div class="p-4">
             <h3 class="font-bold text-lg">Silent Hill f</h3>
             <p class="text-gray-400 text-sm mb-2"> NeoBards Entertainment</p>
             <div class="flex justify-between items-center">
               <p class="text-[#A1CD44] font-bold">$69.99</p>
+              <a href="./silent.html">
               <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
+              </a>
             </div>
           </div>
         </div>
 
         <div class="bg-[#171a21] shadow-md hover:shadow-xl">
-          <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/367520/header.jpg?t=1695270428" class="w-full h-48 object-cover" alt="BG3"/>
+          <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/367520/header.jpg?t=1695270428" class="w-full h-48 object-cover" alt="hollow"/>
           <div class="p-4">
             <h3 class="font-bold text-lg">Hollow Knight</h3>
             <p class="text-gray-400 text-sm mb-2"> Team Cherry</p>
             <div class="flex justify-between items-center">
               <p class="text-[#A1CD44] font-bold">$19.99</p>
-              <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
+              <a href="./hollow.html">
+                <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
+              </a>
             </div>
           </div>
         </div>
@@ -187,19 +213,23 @@
             <p class="text-gray-400 text-sm mb-2"> Ubisoft Montreal</p>
             <div class="flex justify-between items-center">
               <p class="text-[#A1CD44] font-bold">$19.99</p>
-              <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
+              <a href="./rainbow.html">
+                <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
+              </a>
             </div>
           </div>
         </div>
 
         <div class="bg-[#171a21] shadow-md hover:shadow-xl ">
-          <img src="https://image.api.playstation.com/vulcan/ap/rnd/202401/2906/df8c296e89570961418f21078c1f2a347e1919c334f38ace.jpg" class="w-full h-48 object-cover" alt="DL2"/>
+          <img src="https://image.api.playstation.com/vulcan/ap/rnd/202401/2906/df8c296e89570961418f21078c1f2a347e1919c334f38ace.jpg" class="w-full h-48 object-cover" alt="re4"/>
           <div class="p-4">
             <h3 class="font-bold text-lg">Resident Evil 4</h3>
             <p class="text-gray-400 text-sm mb-2"> Capcom</p>
             <div class="flex justify-between items-center">
               <p class="text-[#A1CD44] font-bold">$39.99</p>
-              <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
+              <a href="./re4.html">
+                <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
+              </a>
             </div>
           </div>
         </div>
@@ -207,7 +237,7 @@
       </div>
     </div>
 
-  <footer class="bg-[#171a21] text-gray-400 w-full h-[80px] flex justify-center items-center text-center  text-sm"> © 2025 Steam · Made by Chinguun
+  <footer class="bg-[#171a21] text-gray-400 w-full h-[50px] flex justify-center items-center text-center  text-sm"> © 2025 Steam · Made by Chinguun
   </footer>
 </body>
 </html>
