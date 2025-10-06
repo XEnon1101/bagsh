@@ -11,6 +11,7 @@
 
   <header class="bg-[#171a21] sticky top-0 z-50 shadow-md">
 
+    
     <div class="max-w-7xl mx-auto flex items-center justify-between px-6 h-[65px]">
 
       <div class="flex items-center">
@@ -54,9 +55,12 @@
 
           <div class="p-4 border-slate-700 flex items-center justify-between justify-center">
             <p class="text-[#A1CD44] font-semibold">$69.99</p>
-            <a href="./msfs.html">
-              <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
-            </a>
+            <button id="button10" class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
+                  <script>
+                      document.getElementById("button10").addEventListener("click", () => {
+                          window.location.href = "./msfs.html";
+                      });
+                  </script>
           </div>
 
         </div>
@@ -73,37 +77,31 @@
             <p class="text-gray-400 text-sm mb-2"> Rockstar Games</p>
             <div class="flex justify-between items-center">
               <p class="text-[#A1CD44] font-bold">$99.99</p>
-              <a href="./gta6.html">
-                <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
-              </a>
+                <button id="details-gta6" class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
             </div>
           </div>
         </div>
 
         <div class="bg-[#171a21] shadow-md hover:shadow-xl ">
-          <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg" class="w-full h-48 object-cover" alt="Black Myth"/>
+          <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg" style="object-position: 32% 0%;" class="w-full h-48 object-cover" alt="Black Myth"/>
           <div class="p-4">
             <h3 class="font-bold text-lg">Black Myth: Wukong</h3>
             <p class="text-gray-400 text-sm mb-2"> Game Science</p>
             <div class="flex justify-between items-center">
-              <p class="text-[#A1CD44] font-bold">$59.99</p>
-              <a href="./black.html">
-                <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
-              </a>
+        <p class="text-[#A1CD44] font-bold">$59.99</p>
+        <button id="details-black" class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
             </div>
           </div>
         </div>
 
         <div class="bg-[#171a21] shadow-md hover:shadow-xl">
-          <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/f94fe83233d6312f28b1427da8bc8916721f113f/capsule_616x353.jpg?t=1753863787" class="w-full h-48 object-cover" alt="re req"/>
+          <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/f94fe83233d6312f28b1427da8bc8916721f113f/capsule_616x353.jpg?t=1753863787" style="object-position: 32% 0%;" class="w-full h-48 object-cover" alt="re req"/>
           <div class="p-4">
             <h3 class="font-bold text-lg">Resident Evil Requiem</h3>
             <p class="text-gray-400 text-sm mb-2"> Capcom</p>
             <div class="flex justify-between items-center">
               <p class="text-[#A1CD44] font-bold">$49.99</p>
-                <a href="./requiem.html">
-                  <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
-                </a>
+                <button id="details-requiem" class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
             </div>
           </div>
         </div>
@@ -114,24 +112,20 @@
             <h3 class="font-bold text-lg">Cyberpunk 2077</h3>
             <p class="text-gray-400 text-sm mb-2"> CD Projekt Red</p>
             <div class="flex justify-between items-center">
-              <p class="text-[#A1CD44] font-bold">$59.99</p>
-              <a href="./cyberpunk.html">
-                <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
-              </a>
+        <p class="text-[#A1CD44] font-bold">$59.99</p>
+        <button id="details-cyberpunk" class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
             </div>
           </div>
         </div>
 
         <div class="bg-[#171a21] shadow-md hover:shadow-xl">
-          <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1181550/1db1597bef80bc9b1d67378d29b2475aed1f100c/capsule_616x353.jpg?t=1757590195" class="w-full h-48 object-cover" alt="carhun"/>
+          <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1181550/1db1597bef80bc9b1d67378d29b2475aed1f100c/capsule_616x353.jpg?t=1757590195" style="object-position: 32% 0%;" class="w-full h-48 object-cover" alt="carhun"/>
           <div class="p-4">
             <h3 class="font-bold text-lg">Carnival Hunt</h3>
             <p class="text-gray-400 text-sm mb-2"> Beer Night Studio</p>
             <div class="flex justify-between items-center">
-              <p class="text-[#A1CD44] font-bold">$9.99</p>
-              <a href="./carnival.html">
-                <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
-              </a>
+        <p class="text-[#A1CD44] font-bold">$9.99</p>
+        <button id="details-carnival" class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
             </div>
           </div>
         </div>
@@ -142,10 +136,8 @@
             <h3 class="font-bold text-lg">Forza Horizon 5</h3>
             <p class="text-gray-400 text-sm mb-2"> Playground Games</p>
             <div class="flex justify-between items-center">
-              <p class="text-[#A1CD44] font-bold">$29.99</p>
-              <a href="./forza.html">
-                <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
-              </a>
+        <p class="text-[#A1CD44] font-bold">$59.99</p>
+        <button id="details-forza" class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
             </div>
           </div>
         </div>
@@ -156,10 +148,8 @@
             <h3 class="font-bold text-lg">Call of Duty: MW3</h3>
             <p class="text-gray-400 text-sm mb-2"> Sledgehammer Games</p>
             <div class="flex justify-between items-center">
-              <p class="text-[#A1CD44] font-bold">$69.99</p>
-              <a href="./mw3.html">
-                <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
-              </a>
+        <p class="text-[#A1CD44] font-bold">$69.99</p>
+       <button id="details-mw3" class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
             </div>
           </div>
         </div>
@@ -170,10 +160,8 @@
             <h3 class="font-bold text-lg">Rust</h3>
             <p class="text-gray-400 text-sm mb-2"> Facepunch Studios</p>
             <div class="flex justify-between items-center">
-              <p class="text-[#A1CD44] font-bold">$49.99</p>
-              <a href="./rust.html">
-                <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
-              </a>
+        <p class="text-[#A1CD44] font-bold">$49.99</p>
+        <button id="details-rust" class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
             </div>
           </div>
         </div>
@@ -184,24 +172,20 @@
             <h3 class="font-bold text-lg">Silent Hill f</h3>
             <p class="text-gray-400 text-sm mb-2"> NeoBards Entertainment</p>
             <div class="flex justify-between items-center">
-              <p class="text-[#A1CD44] font-bold">$69.99</p>
-              <a href="./silent.html">
-              <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
-              </a>
+        <p class="text-[#A1CD44] font-bold">$69.99</p>
+        <button id="details-silent" class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
             </div>
           </div>
         </div>
 
         <div class="bg-[#171a21] shadow-md hover:shadow-xl">
-          <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/367520/header.jpg?t=1695270428" class="w-full h-48 object-cover" alt="hollow"/>
+          <img src="https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000003208/4643fb058642335c523910f3a7910575f56372f612f7c0c9a497aaae978d3e51" style="object-position: 65% 0%;" class="w-full h-48 object-cover" alt="hollow"/>
           <div class="p-4">
             <h3 class="font-bold text-lg">Hollow Knight</h3>
             <p class="text-gray-400 text-sm mb-2"> Team Cherry</p>
             <div class="flex justify-between items-center">
-              <p class="text-[#A1CD44] font-bold">$19.99</p>
-              <a href="./hollow.html">
-                <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
-              </a>
+        <p class="text-[#A1CD44] font-bold">$19.99</p>
+        <button id="details-hollow" class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
             </div>
           </div>
         </div>
@@ -212,10 +196,8 @@
             <h3 class="font-bold text-lg">Rainbow Six Siege</h3>
             <p class="text-gray-400 text-sm mb-2"> Ubisoft Montreal</p>
             <div class="flex justify-between items-center">
-              <p class="text-[#A1CD44] font-bold">$19.99</p>
-              <a href="./rainbow.html">
-                <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
-              </a>
+        <p class="text-[#A1CD44] font-bold">$19.99</p>
+        <button id="details-rainbow" class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
             </div>
           </div>
         </div>
@@ -226,10 +208,8 @@
             <h3 class="font-bold text-lg">Resident Evil 4</h3>
             <p class="text-gray-400 text-sm mb-2"> Capcom</p>
             <div class="flex justify-between items-center">
-              <p class="text-[#A1CD44] font-bold">$39.99</p>
-              <a href="./re4.html">
-                <button class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
-              </a>
+        <p class="text-[#A1CD44] font-bold">$39.99</p>
+        <button id="details-re4" class="bg-[#66c0f4] hover:bg-[#417a9b] px-3 py-1 rounded text-sm">Details</button>
             </div>
           </div>
         </div>
@@ -239,5 +219,19 @@
 
   <footer class="bg-[#171a21] text-gray-400 w-full h-[50px] flex justify-center items-center text-center  text-sm"> © 2025 Steam · Made by Chinguun
   </footer>
+<script>
+  document.getElementById("details-gta6").onclick = function() { window.location.href = "./gta6.html"; };
+  document.getElementById("details-black").onclick = function() { window.location.href = "./black.html"; };
+  document.getElementById("details-requiem").onclick = function() { window.location.href = "./requiem.html"; };
+  document.getElementById("details-cyberpunk").onclick = function() { window.location.href = "./cyberpunk.html"; };
+  document.getElementById("details-carnival").onclick = function() { window.location.href = "./carnival.html"; };
+  document.getElementById("details-forza").onclick = function() { window.location.href = "./forza.html"; };
+  document.getElementById("details-mw3").onclick = function() { window.location.href = "./mw3.html"; };
+  document.getElementById("details-rust").onclick = function() { window.location.href = "./rust.html"; };
+  document.getElementById("details-silent").onclick = function() { window.location.href = "./silent.html"; };
+  document.getElementById("details-hollow").onclick = function() { window.location.href = "./hollow.html"; };
+  document.getElementById("details-rainbow").onclick = function() { window.location.href = "./rainbow.html"; };
+  document.getElementById("details-re4").onclick = function() { window.location.href = "./re4.html"; };
+</script>
 </body>
 </html>
